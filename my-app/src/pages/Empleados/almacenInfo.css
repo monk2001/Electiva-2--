@@ -1,0 +1,114 @@
+ 
+
+ .card-busqueda{
+    background-color: #008080;
+      width: 60%;
+    
+      margin: auto;
+      display: flex;
+    }
+    
+    /* Estilos para el contenedor del interruptor */
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 34px;
+    margin-left: 70%;
+    margin-top: -1%;
+    pointer-events: none;
+    display: flex;
+    
+    }
+    .card-busqueda-text{
+      margin-top: -3.5%;
+      margin-right: 70%;
+    }
+    
+    /* Estilos para el botón de encendido/apagado */
+    .switch input[type="checkbox"] {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    
+    /* Estilos para la parte deslizante del interruptor */
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc; /* Color de fondo en estado apagado */
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+      border-radius: 34px;
+    }
+    
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+      border-radius: 50%;
+    
+    }
+    
+    /* Estilos para el interruptor cuando está activado */
+    input[type="checkbox"]:checked + .slider {
+      background-color: #2196F3; /* Color de fondo en estado encendido */
+    
+    }
+    
+    input[type="checkbox"]:checked + .slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    
+    }
+    .card-busqueda-title{
+      margin-right: 70%;
+    }
+
+
+    .fondo-tarjeta-info{
+        background-color: #d7e3ef;
+        margin-left: 2000;
+        
+    }
+
+    .card1{
+        margin-left: 200px;
+        margin-bottom: 20px;
+        background-color: #008080;
+        position: relative;
+        margin: 0 auto;
+        border-radius: 10px
+
+    }
+
+    .card-body1{
+        background-color: #008080;
+        margin-bottom: 20px;
+        position: relative;
+        margin: 0 auto;
+        border-radius: 10px
+    }
+    .container{
+        width: 1000px;
+        height: 700px;
+        background-color: #b3ccff;
+        border-radius: 10px
+    }
+    .fondo1{
+        background-color: #cccccc;
+    }
+
+   
+  
